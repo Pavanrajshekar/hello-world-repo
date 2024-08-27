@@ -1,9 +1,9 @@
 name: Hello World
 
-on:
+on: 
   push:
     branches:
-      - main
+      - main  # or specify the branch you want this to run on
 
 jobs:
   hello-job:
@@ -12,3 +12,4 @@ jobs:
     steps:
       - name: Echo text
         run: echo "Hello, world!"
+
